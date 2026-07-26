@@ -21,10 +21,6 @@ export default function AboutPage() {
         backed by safety-certified materials and a hassle-free returns
         policy.
       </p>
-      <p className="mt-4 text-neutral-600">
-        This site is a demo storefront built for portfolio purposes — no real
-        orders are processed.
-      </p>
     </div>
   );
 }

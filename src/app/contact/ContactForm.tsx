@@ -18,9 +18,8 @@ export function ContactForm() {
       <div className="rounded-2xl border border-black/5 bg-white p-6 text-center">
         <p className="text-lg font-semibold text-neutral-900">Thanks, {name}!</p>
         <p className="mt-1 text-sm text-neutral-500">
-          Your message has been noted. Since this is a demo store, no real
-          reply will be sent — but on a live site we&apos;d get back to you
-          within 24 hours.
+          We&apos;ve received your message and will get back to you within 24
+          hours.
         </p>
       </div>
     );

@@ -169,7 +169,7 @@ export default function CheckoutPage() {
             </div>
 
             <p className="text-sm text-neutral-500">
-              Pay with cash when your order arrives at your doorstep. Card and UPI payments are not yet available on this demo store.
+              Pay with cash when your order arrives at your doorstep. Card and UPI payments are coming soon.
             </p>
           </section>
         </div>
@@ -207,9 +207,6 @@ export default function CheckoutPage() {
           >
             {placing ? "Placing order..." : `Place Order — ${formatPrice(total)}`}
           </button>
-          <p className="mt-3 text-center text-xs text-neutral-400">
-            This is a demo store — no real payment is processed.
-          </p>
         </div>
       </form>
     </div>

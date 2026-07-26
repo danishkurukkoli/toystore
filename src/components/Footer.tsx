@@ -61,7 +61,7 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-black/5 py-4 text-center text-xs text-neutral-400 dark:border-white/10">
-        © {new Date().getFullYear()} chillarakada. This is a demo storefront for portfolio purposes — no real orders are processed.
+        © {new Date().getFullYear()} chillarakada. All rights reserved.
       </div>
     </footer>
   );
